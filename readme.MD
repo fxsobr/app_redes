@@ -1,6 +1,6 @@
-##Aplicação de linha de comando em Golang que realiza consultas baseadas em nome do host
+## Aplicação de linha de comando em Golang que realiza consultas baseadas em nome do host
 
-###Bibliotecas utilizadas
+### Bibliotecas utilizadas
 * [cli](https://github.com/urfave/cli) `go get github.com/urfave/cli`
 
 ### Comandos da Aplicação
