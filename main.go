@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"app_redes/app"
+	"fmt"
+	"log"
+	"os"
+)
 
-func main()  {
+func main() {
 	fmt.Println("Ponto de Partida")
+
+	aplicacao := app.Gerar()
+	if erro := aplicacao.Run(os.Args); erro != nil {
+		log.Fatal(erro)
+	}
 }
